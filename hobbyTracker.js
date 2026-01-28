@@ -38,6 +38,10 @@ console.log("Unique hobbies:", uniqueHobbies(hobbyLog));
 console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
 console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
 
+// Test
+console.log("Focused sessions:", countMood(hobbyLog, "focused"));
+
+
 // Suggested Improvements
 // The function "longSessions" could be renamed to "filterByDuration" since it better describes what the function does.
 // Another small improvement could be adding a function that averages minutes per hobby.
